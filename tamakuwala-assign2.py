@@ -1,4 +1,12 @@
 #!/usr/bin/env python
+
+'''
+    tamakuwala-assign2.py iris.data 3
+    @topic: Uses EM Clustering algorithm to classify the iris dataset considering first 4 parameters
+    @parameters:
+        filename: name of the file containing iris.data
+        noOfClusters: No of clusters to be generated from the dataset
+'''
 import pandas as pd
 import numpy as np
 import math
